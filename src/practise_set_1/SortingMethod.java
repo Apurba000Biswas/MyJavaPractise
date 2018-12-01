@@ -10,7 +10,7 @@ public class SortingMethod {
 	public static void main(String[] args) {
 		String[] words = {"foo", "bar", "baz", "ball"};
 		int[] intArray = {23, 45, 1, 32, 67, 99, 102, 21};
-		List<Integer> list = new ArrayList<>();
+		List<Integer> list = new ArrayList<Integer>();
 		list.add(12);
 		list.add(11);
 		list.add(100);
