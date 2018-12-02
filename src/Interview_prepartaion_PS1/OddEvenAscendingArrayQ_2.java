@@ -3,12 +3,12 @@ package Interview_prepartaion_PS1;
 import java.util.ArrayList;
 import java.util.List;
 
-public class OddEvenAscendingArray {
+public class OddEvenAscendingArrayQ_2 {
 	
 	
 	private int[] array;
 	public static void main(String[] args) {
-		OddEvenAscendingArray obj = new OddEvenAscendingArray();
+		OddEvenAscendingArrayQ_2 obj = new OddEvenAscendingArrayQ_2();
 		obj.makeArray();
 		int[] result = obj.sortArray();
 		obj.printArray(result);
