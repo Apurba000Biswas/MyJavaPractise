@@ -34,7 +34,6 @@ public class String_consonantMatchingQ_3 {
 				result ++;
 			}
 		}
-		
 		System.out.println("Result " + result);
 	}
 	
