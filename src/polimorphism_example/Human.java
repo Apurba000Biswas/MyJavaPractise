@@ -17,5 +17,9 @@ public class Human {
 	public String getResidence() {
 		return residence;
 	}
+	
+	public String getScientificName() {
+		return "Homo-sepience";
+	}
 
 }

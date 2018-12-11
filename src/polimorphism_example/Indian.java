@@ -18,4 +18,9 @@ public class Indian extends Human{
 	public String getResidence() {
 		return residence;
 	}
+	
+	public String getScientificName() {
+		String sciName = "IND//" + super.getScientificName();
+		return sciName;
+	}
 }

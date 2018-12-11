@@ -19,4 +19,9 @@ public class Bangladeshi extends Human{
 		return residence;
 	}
 	
+	public String getScientificName() {
+		String sciName = "BD//" + super.getScientificName();
+		return sciName;
+	}
+	
 }
