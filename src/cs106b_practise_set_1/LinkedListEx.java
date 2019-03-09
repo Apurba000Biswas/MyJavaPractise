@@ -1,4 +1,4 @@
-package cs106b_practise_set1;
+package cs106b_practise_set_1;
 
 import java.util.LinkedList;
 

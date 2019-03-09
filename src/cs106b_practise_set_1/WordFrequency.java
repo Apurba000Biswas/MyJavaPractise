@@ -1,4 +1,4 @@
-package cs106b_practise_set1;
+package cs106b_practise_set_1;
 
 import java.io.IOException;
 import java.nio.file.Path;
@@ -27,7 +27,7 @@ public class WordFrequency {
 			Path path = Paths.get(FILE_NAME);
 			Scanner scanner = new Scanner(path);
 			//countFrequencyUsingArrayList(scanner);
-			//countFrequencyUsingHashSet(scanner);
+			countFrequencyUsingHashSet(scanner);
 			countFrequencyUsingHashMap(scanner);
 			//long endTime   = System.nanoTime();
 			//long seconds = TimeUnit.NANOSECONDS.toSeconds(endTime - startTime);
@@ -78,7 +78,7 @@ public class WordFrequency {
 				wordsMap.put(word, count);
 			}
 		}
-		
+		/*
 		Scanner sc = new Scanner(System.in);
 		while(true){
 			System.out.print("Enter a word to Search:('n' to stop) ");
@@ -87,6 +87,7 @@ public class WordFrequency {
 			System.out.println("Occurance: " + wordsMap.get(input) );
 		}
 		sc.close();
+		*/
 	}
 
 }
